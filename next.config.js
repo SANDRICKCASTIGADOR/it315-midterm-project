@@ -8,7 +8,7 @@ import "./src/env.js";
 const config = {
     typescript: {
         // @ts-ignore
-        ignoresBuildErrors: true,
+        ignoreBuildErrors: true,
     },
     eslint: {
         ignoreDuringBuilds: true,
