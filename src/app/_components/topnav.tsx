@@ -34,7 +34,7 @@ export default function TopNav() {
                             
                             {/* Sign In Button */}
                             <SignInButton>
-                                <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-transform text-sm">
+                                <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:opacity-90 transition-copacity shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-transform text-sm">
                                     Sign In
                                 </button>
                             </SignInButton>
@@ -46,13 +46,13 @@ export default function TopNav() {
                                 <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
                                     Home
                                 </Link>
-                                <Link href="/products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                                <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
                                     Products
                                 </Link>
-                                <Link href="/cart" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                                <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
                                     Cart
                                 </Link>
-                                <Link href="/orders" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                                <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
                                     Orders
                                 </Link>
                                 <UserButton/>

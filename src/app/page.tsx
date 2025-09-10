@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import Link from "next/link";
 
 export default function HomePage() {
@@ -16,14 +16,14 @@ export default function HomePage() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/sign-in">
+                <SignInButton>
                   <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 shadow-lg transform hover:-translate-y-0.5 transition-transform">
-                    Shop Now
+                    View Products
                   </button>
-                </Link>
+                </SignInButton>
                 <Link href="/products">
                   <button className="bg-white text-gray-800 border border-gray-300 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 shadow-sm">
-                    Browse Products
+                    Browse Catalog
                   </button>
                 </Link>
               </div>
@@ -176,18 +176,18 @@ export default function HomePage() {
               </h1>
               
               <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-                Ready ka na mag-shop! Browse our complete collection of PCs, laptops, components, and accessories. Start building your dream setup today.
+                Ready ka na to explore! Browse our complete collection of PCs, laptops, components, and accessories. Discover your dream setup today.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/products/desktop-pcs">
                   <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 shadow-lg">
-                    Shop Desktop PCs
+                    View Desktop PCs
                   </button>
                 </Link>
                 <Link href="/products/laptops">
                   <button className="bg-white text-gray-800 border border-gray-300 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 shadow-sm">
-                    Shop Laptops
+                    View Laptops
                   </button>
                 </Link>
               </div>
