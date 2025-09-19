@@ -27,3 +27,7 @@ export const posts = createTable(
   }),
   (t) => [index("name_idx").on(t.name)],
 );
+
+export function hardwareSpecs(hardwareSpecs: any) {
+  throw new Error('Function not implemented.');
+}

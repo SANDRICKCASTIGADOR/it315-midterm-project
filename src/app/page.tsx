@@ -180,12 +180,12 @@ export default function HomePage() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/products/desktop-pcs">
+                <Link href="/">
                   <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 shadow-lg">
                     View Desktop PCs
                   </button>
                 </Link>
-                <Link href="/products/laptops">
+                <Link href="/">
                   <button className="bg-white text-gray-800 border border-gray-300 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 shadow-sm">
                     View Laptops
                   </button>
